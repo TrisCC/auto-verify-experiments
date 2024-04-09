@@ -1,0 +1,6 @@
+[submodule "auto-verify"]
+	path = auto-verify
+	url = https://github.com/TrisCC/auto-verify.git
+[submodule "vnncomp2023_benchmarks"]
+	path = vnncomp2023_benchmarks
+	url = https://github.com/ChristopherBrix/vnncomp2023_benchmarks.git
