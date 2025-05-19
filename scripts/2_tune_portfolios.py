@@ -1,3 +1,6 @@
+import sys
+import os
+
 from pathlib import Path
 
 from autoverify.portfolio import Hydra, PortfolioScenario
@@ -8,72 +11,57 @@ from autoverify.util.verifiers import get_verifier_configspace
 
 
 def main():
-    # xs = (x * 0.3 for x in range(1, 3))
-    # for x in xs:
-    #     for portfolio_length in range(1, 3):
-    #         print(f"Training portfolio length {portfolio_length} with alpha {x}")
-    #         train_portfolio(["nnenum", "nnenum", "nnenum"], x, portfolio_length, "mnist_fc", 20)
+    num_tune_instances = -1
+    num_nnenum_instances = -1
+    num_network_types = [1, 3]
 
-    # dataset = read_vnncomp_instances(
-    #     "minst_fc", vnncomp_path=Path("../vnncomp/vnncomp2022/benchmarks")
-    # )
+    try:
+        num_tune_instances = int(sys.argv[1])
+        num_nnenum_instances = int(sys.argv[2])
+    except (IndexError, ValueError):
+        raise ValueError(
+            "Expected num_tune_instances (int) and num_nnenum_instances (int) to be given as command line argument"
+        )
 
-    # dataset = dataset
+    dataset_train = read_vnncomp_instances(
+        "mnist_fc_single_train", vnncomp_path=Path("../vnncomp/vnncomp2022/benchmarks")
+    )
 
-    # for x in [0.9, 0.6, 0.3]:
-    #     for portfolio_length in range(1, 4):
-    #         run_verifier(f"{portfolio_length}_{str(x)}_mnist_fc", f"results/1hour_training_mnist_fc/portfolios/PF_{portfolio_length}_{str(x)}_mnist_fc.json", "mnist_fc", 20, dataset)
-
-    # for x in [0.4, 0.8]:
-    #     run_verifier(f"1_{str(x)}_CIFAR2020", f"results/1hour_training_cifar/portfolios/PF_1_{str(x)}_CIFAR2020.json", "cifar2020", 203)
-
-    train_portfolio(["abcrown"], 0.0, 2, "cifar2020", 5)
+    print(f"Training portfolio with {num_tune_instances}")
+    train_portfolio(
+        ["nnenum", "nnenum"],
+        0.95,
+        [("nnenum", 0, 0)],
+        "mnist_fc_single_train",
+        num_tune_instances,
+        dataset_train,
+    )
 
     return 0
 
 
 def train_portfolio(
-    verifiers_list, alpha, portfolio_length, dataset_name, dataset_cutoff
+    verifiers_list, alpha, resources_list, dataset_name, dataset_cutoff, benchmark
 ):
-    benchmark = read_vnncomp_instances(
-        dataset_name, vnncomp_path=Path("../vnncomp/vnncomp2022/benchmarks")
-    )
-    benchmark = benchmark[:dataset_cutoff]
+    benchmark = benchmark[:: int(512 / dataset_cutoff)]
+    
+    nnenum_instances = len(verifiers_list)
 
     pf_scenario = PortfolioScenario(
         verifiers_list,
-        [
-            ("nnenum", 0, 0),
-            ("abcrown", 0, 1),
-        ],
+        resources_list,
         benchmark,
-        portfolio_length,
-        (60 * 60) * 1 / portfolio_length,
+        len(verifiers_list),
+        (60 * 60) * 24 / len(verifiers_list),
         alpha=alpha,
-        output_dir=Path(
-            f"results/1hour_training_{dataset_name}/portfolios/PF_{portfolio_length}_{str(alpha)}_{dataset_name}"
-        ),
     )
 
     hydra = Hydra(pf_scenario)
     pf = hydra.tune_portfolio()
     pf.to_json(
         Path(
-            f"results/1hour_training_{dataset_name}/portfolios/PF_{portfolio_length}_{str(alpha)}_{dataset_name}.json"
+            f"results/pf_{nnenum_instances}_net_1/portfolios/PF_{str(dataset_cutoff)_mnist_fc.json}"
         )
-    )
-
-
-def run_verifier(portfolio_name, portfolio_path, dataset_name, dataset_cutoff, dataset):
-
-    # Run portfolio trained
-    pf_trained = Portfolio.from_json(Path(portfolio_path))
-    pf_runner = PortfolioRunner(pf_trained)
-    pf_runner.verify_instances(
-        dataset,
-        out_json=Path(
-            f"results/1hour_training_mnist_fc/runs/results_{portfolio_name}_trained.json"
-        ),
     )
 
 
