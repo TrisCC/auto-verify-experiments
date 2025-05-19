@@ -1,0 +1,67 @@
+[
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 3,
+            "COMPRESS_INIT_BOX": false,
+            "CONTRACT_LP_OPTIMIZED": true,
+            "CONTRACT_LP_TRACK_WITNESSES": false,
+            "CONTRACT_ZONOTOPE": false,
+            "CONTRACT_ZONOTOPE_LP": false,
+            "EAGER_BOUNDS": true,
+            "GLPK_FIRST_PRIMAL": false,
+            "GLPK_RESET_BEFORE_MINIMIZE": false,
+            "GLPK_TIMEOUT": 40,
+            "INF_OVERAPPROX_LP_TIMEOUT": true,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": true,
+            "OFFLOAD_CLOSEST_TO_ROOT": false,
+            "OVERAPPROX_BOTH_BOUNDS": false,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 1.8336052524651634,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 2,
+            "SINGLE_SET": true,
+            "SKIP_COMPRESSED_CHECK": false,
+            "SKIP_CONSTRAINT_NORMALIZATION": false,
+            "SPLIT_IF_IDLE": false,
+            "SPLIT_ORDER": 3,
+            "SPLIT_TOLERANCE": 9.460671531164437e-08,
+            "TRY_QUICK_OVERAPPROX": false
+        },
+        "resources": [
+            16,
+            0
+        ]
+    },
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 3,
+            "COMPRESS_INIT_BOX": false,
+            "CONTRACT_LP_OPTIMIZED": false,
+            "CONTRACT_LP_TRACK_WITNESSES": false,
+            "CONTRACT_ZONOTOPE": true,
+            "CONTRACT_ZONOTOPE_LP": false,
+            "EAGER_BOUNDS": true,
+            "GLPK_FIRST_PRIMAL": true,
+            "GLPK_RESET_BEFORE_MINIMIZE": true,
+            "GLPK_TIMEOUT": 65,
+            "INF_OVERAPPROX_LP_TIMEOUT": false,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": true,
+            "OFFLOAD_CLOSEST_TO_ROOT": false,
+            "OVERAPPROX_BOTH_BOUNDS": true,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 0.4795358605625739,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 1,
+            "SINGLE_SET": false,
+            "SKIP_COMPRESSED_CHECK": true,
+            "SKIP_CONSTRAINT_NORMALIZATION": true,
+            "SPLIT_IF_IDLE": false,
+            "SPLIT_ORDER": 0,
+            "SPLIT_TOLERANCE": 8.83077538065864e-08,
+            "TRY_QUICK_OVERAPPROX": false,
+            "OVERAPPROX_LP_TIMEOUT": 4.831949857189467
+        },
+        "resources": [
+            16,
+            0
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 1,
+            "COMPRESS_INIT_BOX": false,
+            "CONTRACT_LP_OPTIMIZED": true,
+            "CONTRACT_LP_TRACK_WITNESSES": true,
+            "CONTRACT_ZONOTOPE": false,
+            "CONTRACT_ZONOTOPE_LP": true,
+            "EAGER_BOUNDS": true,
+            "GLPK_FIRST_PRIMAL": false,
+            "GLPK_RESET_BEFORE_MINIMIZE": true,
+            "GLPK_TIMEOUT": 98,
+            "INF_OVERAPPROX_LP_TIMEOUT": false,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": false,
+            "OFFLOAD_CLOSEST_TO_ROOT": true,
+            "OVERAPPROX_BOTH_BOUNDS": true,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 0.4408408707529932,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 3,
+            "SINGLE_SET": true,
+            "SKIP_COMPRESSED_CHECK": true,
+            "SKIP_CONSTRAINT_NORMALIZATION": false,
+            "SPLIT_IF_IDLE": false,
+            "SPLIT_ORDER": 1,
+            "SPLIT_TOLERANCE": 3.2484834465078265e-08,
+            "TRY_QUICK_OVERAPPROX": true,
+            "OVERAPPROX_LP_TIMEOUT": 3.465203777459246,
+            "OVERAPPROX_MIN_GEN_LIMIT": 96
+        },
+        "resources": [
+            32,
+            0
+        ]
+    }
+]

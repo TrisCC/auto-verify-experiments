@@ -1,0 +1,1604 @@
+{
+  "instances": [
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_92_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_0_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_4_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.4439644813537598"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_8_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_8_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_12_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_12_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_16_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_16_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_20_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_20_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_24_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.8611912727355957"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_28_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_28_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_32_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.409315586090088"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_36_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_36_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_40_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_40_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_44_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_44_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_48_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_48_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_52_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.073845148086548"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_56_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_56_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_60_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_60_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_64_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.1317663192749023"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_68_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_68_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_72_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_72_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_76_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.5994386672973633"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_80_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_80_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_84_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "31.565998077392578"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_88_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_88_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_92_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.372605800628662"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_96_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.142289638519287"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_100_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_100_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_104_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_104_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_108_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "41.78815770149231"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_112_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_112_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_116_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_116_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_120_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.473304271697998"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_124_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_124_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_128_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_128_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_132_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_132_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_136_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.539046287536621"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_140_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_140_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_144_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_144_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_148_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_148_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_152_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_152_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_156_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_156_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_160_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "784.7403652667999"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_164_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_164_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_168_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_168_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_172_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "24.248725652694702"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_176_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "SAT",
+      "took": "665.3935225009918"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_180_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_180_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_184_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.3801047801971436"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_188_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_188_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_192_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_192_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_196_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_196_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_200_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.075913190841675"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_204_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_204_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_208_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "213.26471662521362"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_212_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.6172730922698975"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_216_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_216_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_220_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_220_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_224_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "SAT",
+      "took": "2219.765585422516"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_228_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.430297613143921"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_232_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_232_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_236_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_236_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_240_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_240_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_244_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.0988667011260986"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_248_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "2.2674853801727295"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_252_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_252_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_0_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_0_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_4_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_4_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_8_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_8_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_12_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_12_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_16_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_16_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_20_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_20_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_24_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_24_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_28_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_28_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_32_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "451.67023277282715"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_36_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_36_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_40_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_40_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_44_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_44_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_48_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "SAT",
+      "took": "2.3432133197784424"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_52_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_52_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_56_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "SAT",
+      "took": "887.5309777259827"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_60_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_60_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_64_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_64_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_68_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_68_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_72_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_72_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_76_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_76_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_80_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_80_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_84_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_84_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_0_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_0_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_4_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "3.722426652908325"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_88_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_88_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_8_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_92_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_92_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_12_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "UNSAT",
+      "took": "482.2463836669922"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_96_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_96_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_100_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_100_0.05.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 3,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': True,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': True,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': True,\n  'GLPK_TIMEOUT': 33,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': True,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 1.7603530393745064,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 5,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': False,\n  'SPLIT_ORDER': 1,\n  'SPLIT_TOLERANCE': 5.697670987399239e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    },
+    {
+      "network": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/onnx/mnist-net_256x6.onnx",
+      "property": "/home/s2558769/vnncomp/vnncomp2022/benchmarks/mnist_fc_single_train/vnnlib/prop_20_0.03.vnnlib",
+      "timeout": "3600",
+      "verifier": "nnenum",
+      "config": "Configuration(values={\n  'BRANCH_MODE': 1,\n  'COMPRESS_INIT_BOX': False,\n  'CONTRACT_LP_OPTIMIZED': False,\n  'CONTRACT_LP_TRACK_WITNESSES': False,\n  'CONTRACT_ZONOTOPE': False,\n  'CONTRACT_ZONOTOPE_LP': True,\n  'EAGER_BOUNDS': False,\n  'GLPK_FIRST_PRIMAL': False,\n  'GLPK_RESET_BEFORE_MINIMIZE': False,\n  'GLPK_TIMEOUT': 42,\n  'INF_OVERAPPROX_LP_TIMEOUT': True,\n  'INF_OVERAPPROX_MIN_GEN_LIMIT': True,\n  'OFFLOAD_CLOSEST_TO_ROOT': True,\n  'OVERAPPROX_BOTH_BOUNDS': False,\n  'OVERAPPROX_GEN_LIMIT_MULTIPLIER': 2.00974963977273,\n  'OVERAPPROX_NEAR_ROOT_MAX_SPLITS': 4,\n  'SINGLE_SET': True,\n  'SKIP_COMPRESSED_CHECK': False,\n  'SKIP_CONSTRAINT_NORMALIZATION': True,\n  'SPLIT_IF_IDLE': True,\n  'SPLIT_ORDER': 3,\n  'SPLIT_TOLERANCE': 8.777401928634248e-08,\n  'TRY_QUICK_OVERAPPROX': True,\n})",
+      "success": "OK",
+      "result": "TIMEOUT",
+      "took": "3600"
+    }
+  ]
+}

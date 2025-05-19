@@ -1,0 +1,102 @@
+[
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 3,
+            "COMPRESS_INIT_BOX": true,
+            "CONTRACT_LP_OPTIMIZED": false,
+            "CONTRACT_LP_TRACK_WITNESSES": false,
+            "CONTRACT_ZONOTOPE": true,
+            "CONTRACT_ZONOTOPE_LP": false,
+            "EAGER_BOUNDS": false,
+            "GLPK_FIRST_PRIMAL": false,
+            "GLPK_RESET_BEFORE_MINIMIZE": true,
+            "GLPK_TIMEOUT": 111,
+            "INF_OVERAPPROX_LP_TIMEOUT": true,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": true,
+            "OFFLOAD_CLOSEST_TO_ROOT": true,
+            "OVERAPPROX_BOTH_BOUNDS": false,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 0.7707499310600073,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 3,
+            "SINGLE_SET": true,
+            "SKIP_COMPRESSED_CHECK": false,
+            "SKIP_CONSTRAINT_NORMALIZATION": true,
+            "SPLIT_IF_IDLE": true,
+            "SPLIT_ORDER": 3,
+            "SPLIT_TOLERANCE": 9.0693063020427e-08,
+            "TRY_QUICK_OVERAPPROX": true
+        },
+        "resources": [
+            11,
+            0
+        ]
+    },
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 2,
+            "COMPRESS_INIT_BOX": false,
+            "CONTRACT_LP_OPTIMIZED": false,
+            "CONTRACT_LP_TRACK_WITNESSES": true,
+            "CONTRACT_ZONOTOPE": true,
+            "CONTRACT_ZONOTOPE_LP": true,
+            "EAGER_BOUNDS": true,
+            "GLPK_FIRST_PRIMAL": true,
+            "GLPK_RESET_BEFORE_MINIMIZE": false,
+            "GLPK_TIMEOUT": 22,
+            "INF_OVERAPPROX_LP_TIMEOUT": false,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": false,
+            "OFFLOAD_CLOSEST_TO_ROOT": false,
+            "OVERAPPROX_BOTH_BOUNDS": false,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 0.30989446525541586,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 5,
+            "SINGLE_SET": true,
+            "SKIP_COMPRESSED_CHECK": false,
+            "SKIP_CONSTRAINT_NORMALIZATION": true,
+            "SPLIT_IF_IDLE": false,
+            "SPLIT_ORDER": 1,
+            "SPLIT_TOLERANCE": 1.9866124579066736e-08,
+            "TRY_QUICK_OVERAPPROX": true,
+            "OVERAPPROX_LP_TIMEOUT": 2.5907490689558714,
+            "OVERAPPROX_MIN_GEN_LIMIT": 85
+        },
+        "resources": [
+            11,
+            0
+        ]
+    },
+    {
+        "verifier": "nnenum",
+        "configuration": {
+            "BRANCH_MODE": 2,
+            "COMPRESS_INIT_BOX": false,
+            "CONTRACT_LP_OPTIMIZED": false,
+            "CONTRACT_LP_TRACK_WITNESSES": false,
+            "CONTRACT_ZONOTOPE": false,
+            "CONTRACT_ZONOTOPE_LP": false,
+            "EAGER_BOUNDS": false,
+            "GLPK_FIRST_PRIMAL": false,
+            "GLPK_RESET_BEFORE_MINIMIZE": true,
+            "GLPK_TIMEOUT": 108,
+            "INF_OVERAPPROX_LP_TIMEOUT": false,
+            "INF_OVERAPPROX_MIN_GEN_LIMIT": false,
+            "OFFLOAD_CLOSEST_TO_ROOT": true,
+            "OVERAPPROX_BOTH_BOUNDS": false,
+            "OVERAPPROX_GEN_LIMIT_MULTIPLIER": 2.630827353874552,
+            "OVERAPPROX_NEAR_ROOT_MAX_SPLITS": 1,
+            "SINGLE_SET": true,
+            "SKIP_COMPRESSED_CHECK": true,
+            "SKIP_CONSTRAINT_NORMALIZATION": false,
+            "SPLIT_IF_IDLE": true,
+            "SPLIT_ORDER": 3,
+            "SPLIT_TOLERANCE": 9.097630193294418e-08,
+            "TRY_QUICK_OVERAPPROX": true,
+            "OVERAPPROX_LP_TIMEOUT": 3.240655913682544,
+            "OVERAPPROX_MIN_GEN_LIMIT": 50
+        },
+        "resources": [
+            10,
+            0
+        ]
+    }
+]
